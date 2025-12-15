@@ -48,6 +48,15 @@ print(students[0]['Combo,Name'])
 print(students[0]['Email'][0])
 print(students[0]['Email'][1])
 
+
+print(students['HR'])
+print(students['GL'])
+print(students['CPSID'])
+
+if ['GL'] >= 10:
+        print("Student can go off-campus")
+else:
+        print("Student can NOT go off-campus")
 # What is being counted?
 
 # If the output is 36, what does that tell you?
@@ -55,7 +64,7 @@ print(students[0]['Email'][1])
 # If one new student enrolls, what happens to this number?
 
 # Why would a school use this in a real attendance system?
-
+if students['LName'][0] 
 
 
 
@@ -63,16 +72,16 @@ print(students[0]['Email'][1])
 # for loops allow us to
 #iterate through the data
 #and perform some function
-
+ 
 #we are iterating through the data
 #and printing the name and email of the students
 #we are also printing a line of underscores to separate the students
 #we are also printing a line of underscores to separate the students
-for student in students:
-    print(student['Combo,Name'])
-    print(student['Email'][0])
-    print(student['Email'][1])
-    print("_"*25)
+# for student in students:
+#     print(student['Combo,Name'])
+#     print(student['Email'][0])
+#     print(student['Email'][1])
+#     print("_"*25)
 
 # What does the loop variable student represent on each pass?
 
@@ -88,11 +97,11 @@ for student in students:
 # we are asking the user to input their name
 # then we are checking if the name is in the data
 # if the name is in the data we are printing the name and "this works"
-name = input("what is you name?") 
-for student in students:
-    if name == student['Combo,Name']:
-        print(student['Combo,Name'])
-        print("this works")
+# name = input("what is you name?") 
+# for student in students:
+#     if name == student['Combo,Name']:
+#         print(student['Combo,Name'])
+#         print("this works")
 
 # What is the goal of this search?
 
